@@ -1,0 +1,26 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.slick-slide {
+  padding: 20px;
+}
+
+.app-wrapper {
+  background: #000;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  min-height: 100vh;
+}
+
+.ant-form-item {
+  margin-bottom: 7px !important;
+}
