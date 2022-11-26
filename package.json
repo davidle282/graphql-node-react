@@ -1,0 +1,23 @@
+{
+  "name": "movie-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "concurrently": "^7.3.0",
+    "graphql": "^15.5.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.9.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "ws": "^8.8.1"
+  }
+}
